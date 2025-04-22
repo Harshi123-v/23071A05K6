@@ -1,0 +1,33 @@
+/* src/pages/Home.css */
+.home-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .home-container h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .home-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .home-btn:hover {
+    background-color: #45a049;
+  }
+  
